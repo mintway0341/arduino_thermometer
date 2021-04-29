@@ -125,7 +125,7 @@ void loop() {
     OLED_Display_clear_display();
     OLED_Display_add(2,0,0, tmp);
     
-    if (measuredTemperature >= 30.0) {
+    if (measuredTemperature >= 37.3) {
       tone(speakerOut, NOTE_C6, 150);
       delay(250);
       tone(speakerOut, NOTE_C6, 150);
